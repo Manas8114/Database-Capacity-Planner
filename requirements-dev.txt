@@ -1,0 +1,32 @@
+# Development Dependencies
+
+# Include all core dependencies
+-r requirements.txt
+
+# Testing Framework
+pytest==7.4.4
+pytest-cov==4.1.0
+pytest-mock==3.12.0
+pytest-asyncio==0.23.3
+pytest-xdist==3.5.0
+
+# Code Quality Tools
+black==24.1.1
+flake8==7.0.0
+mypy==1.8.0
+pylint==3.0.3
+isort==5.13.2
+
+# Type Stubs
+pandas-stubs==2.1.4.231227
+types-requests==2.31.0.20240125
+types-beautifulsoup4==4.12.0.20240106
+
+# Documentation
+sphinx==7.2.6
+sphinx-rtd-theme==2.0.0
+
+# Development Utilities
+ipython==8.20.0
+jupyter==1.0.0
+notebook==7.0.6
